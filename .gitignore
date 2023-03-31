@@ -2,8 +2,3 @@ fieldmap
 *~
 *.sw[op]
 \#*
-*
-conf/analyzer_?????.conf
-!CMAP
-!DIGIT
-!schema
