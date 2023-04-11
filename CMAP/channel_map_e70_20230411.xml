@@ -261,6 +261,28 @@
 	<!--<FE ch="7"><D Device="VMEdummy" plane="2" segment="7" data="0"/></FE>
 	-->
       </VmeCaenV792>
+      <VmeCaenV792 address="0x00130000">
+	<FE ch="0"><D Device="E72BAC" segment="0" ch="0" data="0"/></FE>
+	<FE ch="1"><D Device="E90SAC" segment="0" ch="0" data="0"/></FE>
+	<FE ch="2"><D Device="E90SAC" segment="1" ch="0" data="0"/></FE>
+	<FE ch="3"><D Device="E72KVC" segment="0" ch="0" data="0"/></FE>
+	<FE ch="4"><D Device="E72KVC" segment="0" ch="1" data="0"/></FE>
+	<FE ch="5"><D Device="E72KVC" segment="0" ch="2" data="0"/></FE>
+	<FE ch="6"><D Device="E72KVC" segment="1" ch="0" data="0"/></FE>
+	<FE ch="7"><D Device="E72KVC" segment="1" ch="1" data="0"/></FE>
+	<FE ch="8"><D Device="E72KVC" segment="1" ch="2" data="0"/></FE>
+	<FE ch="9"><D Device="E72KVC" segment="2" ch="0" data="0"/></FE>
+	<FE ch="10"><D Device="E72KVC" segment="2" ch="1" data="0"/></FE>
+	<FE ch="11"><D Device="E72KVC" segment="2" ch="2" data="0"/></FE>
+	<FE ch="12"><D Device="E72KVC" segment="3" ch="0" data="0"/></FE>
+	<FE ch="13"><D Device="E72KVC" segment="3" ch="1" data="0"/></FE>
+	<FE ch="14"><D Device="E72KVC" segment="3" ch="2" data="0"/></FE>
+	<FE ch="15"><D Device="E42BH2" segment="0" ch="0" data="0"/></FE>
+	<FE ch="16"><D Device="E42BH2" segment="0" ch="1" data="0"/></FE>
+	<for var="ch" from="17" to="31">
+	  <FE ch="ch"><D Device="VMEdummy" plane="13" segment="ch" data="0"/></FE>
+	</for>
+      </VmeCaenV792>
     </VmeMaster>
     <!--________________________________________________________________-->
     <HulMHTdc node_id="0x611" name="hul02sdc-1">
