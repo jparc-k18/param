@@ -22,7 +22,7 @@
 	 spill="true"/>
       <show
 	  all="true"
-	  always="true"
+	  always="false"
 	  char_true="!" char_false="."/>
     </error_check>
 
