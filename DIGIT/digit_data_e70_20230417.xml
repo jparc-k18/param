@@ -1049,7 +1049,7 @@
 	<data id="3" name="lock"/>
       </ch>
     </plane>
-    <plane id="4" name="hul02mst_1">
+    <plane id="4" name="hul01scr_4">
       <ch id="0">
 	<data id="0" name="event"/>
 	<data id="1" name="spill"/>
