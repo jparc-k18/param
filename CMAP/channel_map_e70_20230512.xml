@@ -703,126 +703,126 @@
     <Easiroc node_id="0xea00" name="easiroc0">
       <for var="ch" from="0" to="15"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="0" ch="4 * ch + 1" data="data"/>
+          <D Device="BFT" plane="0" segment="4 * ch + 1" data="data"/>
       </FE></for></for>
       <for var="ch" from="16" to="31"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="0" ch="4 * (ch -16) + 3" data="data"/>
+          <D Device="BFT" plane="0" segment="4 * (ch -16) + 3" data="data"/>
       </FE></for></for>
     </Easiroc>
     <!--________________________________________________________________-->
     <Easiroc node_id="0xea01" name="easiroc1">
       <for var="ch" from="0" to="15"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="0" ch="4 * ch + 0" data="data"/>
+          <D Device="BFT" plane="0" segment="4 * ch + 0" data="data"/>
       </FE></for></for>
       <for var="ch" from="16" to="31"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="0" ch="4 * (ch -16) + 2" data="data"/>
+          <D Device="BFT" plane="0" segment="4 * (ch -16) + 2" data="data"/>
       </FE></for></for>
     </Easiroc>
     <!--________________________________________________________________-->
     <Easiroc node_id="0xea02" name="easiroc2">
       <for var="ch" from="0" to="15"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="1" ch="4 * ch + 0" data="data"/>
+          <D Device="BFT" plane="1" segment="4 * ch + 0" data="data"/>
       </FE></for></for>
       <for var="ch" from="16" to="31"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="1" ch="4 * (ch -16) + 2" data="data"/>
+          <D Device="BFT" plane="1" segment="4 * (ch -16) + 2" data="data"/>
       </FE></for></for>
     </Easiroc>
     <!--________________________________________________________________-->
     <Easiroc node_id="0xea03" name="easiroc3">
       <for var="ch" from="0" to="15"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="1" ch="4 * ch + 1" data="data"/>
+          <D Device="BFT" plane="1" segment="4 * ch + 1" data="data"/>
       </FE></for></for>
       <for var="ch" from="16" to="31"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="1" ch="4 * (ch -16) + 3" data="data"/>
+          <D Device="BFT" plane="1" segment="4 * (ch -16) + 3" data="data"/>
       </FE></for></for>
     </Easiroc>
     <!--________________________________________________________________-->
     <Easiroc node_id="0xea04" name="easiroc4">
       <for var="ch" from="0" to="15"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="0" ch="4 * ch + 65" data="data"/>
+          <D Device="BFT" plane="0" segment="4 * ch + 65" data="data"/>
       </FE></for></for>
       <for var="ch" from="16" to="31"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="0" ch="4 * (ch -16) + 67" data="data"/>
+          <D Device="BFT" plane="0" segment="4 * (ch -16) + 67" data="data"/>
       </FE></for></for>
     </Easiroc>
     <!--________________________________________________________________-->
     <Easiroc node_id="0xea05" name="easiroc5">
       <for var="ch" from="0" to="15"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="1" ch="4 * ch + 65" data="data"/>
+          <D Device="BFT" plane="1" segment="4 * ch + 65" data="data"/>
       </FE></for></for>
       <for var="ch" from="16" to="31"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="1" ch="4 * (ch -16) + 67" data="data"/>
+          <D Device="BFT" plane="1" segment="4 * (ch -16) + 67" data="data"/>
       </FE></for></for>
     </Easiroc>
     <!--________________________________________________________________-->
     <Easiroc node_id="0xea06" name="easiroc6">
       <for var="ch" from="0" to="15"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="1" ch="4 * ch + 64" data="data"/>
+          <D Device="BFT" plane="1" segment="4 * ch + 64" data="data"/>
       </FE></for></for>
       <for var="ch" from="16" to="31"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="1" ch="4 * (ch -16) + 66" data="data"/>
+          <D Device="BFT" plane="1" segment="4 * (ch -16) + 66" data="data"/>
       </FE></for></for>
     </Easiroc>
     <!--________________________________________________________________-->
     <Easiroc node_id="0xea08" name="easiroc8">
       <for var="ch" from="0" to="15"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="0" ch="4 * ch + 64" data="data"/>
+          <D Device="BFT" plane="0" segment="4 * ch + 64" data="data"/>
       </FE></for></for>
       <for var="ch" from="16" to="31"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="0" ch="4 * (ch -16) + 66" data="data"/>
+          <D Device="BFT" plane="0" segment="4 * (ch -16) + 66" data="data"/>
       </FE></for></for>
     </Easiroc>
     <!--________________________________________________________________-->
     <Easiroc node_id="0xea07" name="easiroc7">
       <for var="ch" from="0" to="7"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-	  <D Device="BFT" plane="0" ch="128 + 4 * ch + 2" data="data"/>
+	  <D Device="BFT" plane="0" segment="128 + 4 * ch + 2" data="data"/>
       </FE></for></for>
       <for var="ch" from="8" to="15"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-	  <D Device="BFT" plane="0" ch="128 + 4 * (ch - 8) + 0" data="data"/>
+	  <D Device="BFT" plane="0" segment="128 + 4 * (ch - 8) + 0" data="data"/>
       </FE></for></for>
       <for var="ch" from="16" to="23"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="1" ch="128 + 4 * (ch - 16) + 2" data="data"/>
+          <D Device="BFT" plane="1" segment="128 + 4 * (ch - 16) + 2" data="data"/>
       </FE></for></for>
       <for var="ch" from="24" to="31"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="1" ch="128 + 4 * (ch - 24) + 0" data="data"/>
+          <D Device="BFT" plane="1" segment="128 + 4 * (ch - 24) + 0" data="data"/>
       </FE></for></for>
     </Easiroc>
     <!--________________________________________________________________-->
     <Easiroc node_id="0xea09" name="easiroc9">
       <for var="ch" from="0" to="7"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-	  <D Device="BFT" plane="0" ch="128 + 4 * ch + 3" data="data"/>
+	  <D Device="BFT" plane="0" segment="128 + 4 * ch + 3" data="data"/>
       </FE></for></for>
       <for var="ch" from="8" to="15"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-	  <D Device="BFT" plane="0" ch="128 + 4 * (ch - 8) + 1" data="data"/>
+	  <D Device="BFT" plane="0" segment="128 + 4 * (ch - 8) + 1" data="data"/>
       </FE></for></for>
       <for var="ch" from="16" to="23"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="1" ch="128 + 4 * (ch - 16) + 3" data="data"/>
+          <D Device="BFT" plane="1" segment="128 + 4 * (ch - 16) + 3" data="data"/>
       </FE></for></for>
       <for var="ch" from="24" to="31"><for var="data" from="0" to="1">
         <FE ch="ch" data="data">
-          <D Device="BFT" plane="1" ch="128 + 4 * (ch - 24) + 1" data="data"/>
+          <D Device="BFT" plane="1" segment="128 + 4 * (ch - 24) + 1" data="data"/>
       </FE></for></for>
     </Easiroc>
     <!--________________________________________________________________-->
