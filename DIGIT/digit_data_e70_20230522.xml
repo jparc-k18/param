@@ -465,7 +465,7 @@
     </segment></for>
   </device>
   <!--________________________________________________________________-->
-  <device id="14" name="AC1"><for var="seg" from="0" to="17">
+  <device id="14" name="AC1"><for var="seg" from="0" to="19">
     <segment id="seg">
       <ch id="0">
         <data id="0" name="adc"/>
