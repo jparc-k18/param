@@ -18,8 +18,8 @@
 	<FE ch="1"><D Device="null"/></FE> <!-- dead 2023/04/06 -->
 	<FE ch="2"><D Device="null"/></FE>
 	<FE ch="3"><D Device="null"/></FE>
-	<FE ch="4"><D Device="AC1" segment="0" ch="0" data="0"/></FE>
-	<FE ch="5"><D Device="AC1" segment="1" ch="0" data="0"/></FE>
+	<FE ch="4"><D Device="AC1" segment="18" ch="0" data="0"/></FE>
+	<FE ch="5"><D Device="AC1" segment="19" ch="0" data="0"/></FE>
 	<FE ch="6"><D Device="null"/></FE>
     	<for var="ch" from="7" to="15">
     	  <FE ch="ch"><D Device="null"/></FE>
