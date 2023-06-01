@@ -476,6 +476,17 @@
     </segment></for>
   </device>
   <!--________________________________________________________________-->
+  <device id="15" name="SAC3">
+    <segment id="0">
+      <ch id="0">
+        <data id="0" name="adc"/>
+        <data id="1" name="tdc"/>
+        <data id="2" name="trailing"/>
+        <data id="3" name="overflow"/>
+      </ch>
+    </segment>
+  </device>
+  <!--________________________________________________________________-->
   <device id="21" name="TFlag"><for var="seg" from="0" to="127">
     <segment id="seg">
       <ch id="0">

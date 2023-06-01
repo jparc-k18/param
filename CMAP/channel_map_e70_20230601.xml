@@ -176,7 +176,8 @@
 	<FE ch="14"><D Device="E72KVC" segment="3" ch="2" data="0"/></FE>
 	<FE ch="15"><D Device="E42BH2" segment="3" ch="0" data="0"/></FE>
 	<FE ch="16"><D Device="E42BH2" segment="3" ch="1" data="0"/></FE>
-	<for var="ch" from="17" to="31">
+	<FE ch="17"><D Device="SAC3" segment="0" ch="0" data="0"/></FE>
+	<for var="ch" from="18" to="31">
 	  <FE ch="ch"><D Device="null"/></FE>
 	</for>
       </VmeCaenV792>
