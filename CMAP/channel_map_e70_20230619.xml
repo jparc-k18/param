@@ -356,8 +356,9 @@
 	<!-- <for var="ch" from="0" to="29"> -->
 	<!--   <FE ch="ch+96"  data="data"><D Device="LAC" segment="ch" data="data+1"/></FE> -->
 	<!-- </for> -->
-	<FE ch="96" data="data"><D Device="AC1" segment="21" data="data+1"/></FE>
-	<for var="ch" from="97" to="111">
+	<FE ch="96"  data="data"><D Device="null"/></FE>
+	<FE ch="97" data="data"><D Device="AC1" segment="21" data="data+1"/></FE>
+	<for var="ch" from="98" to="111">
 	  <FE ch="ch"  data="data"><D Device="null"/></FE>
 	</for>
 	<for var="ch" from="0" to="15">
