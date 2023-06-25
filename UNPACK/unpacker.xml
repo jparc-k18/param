@@ -16,8 +16,8 @@
       <slip check="false"/>
       <disagreement
        	 local="true"
-	 event="true"
-	 spill="true"/>
+	 event="false"
+	 spill="false"/>
       <show
 	  all="true"
 	  always="false"
