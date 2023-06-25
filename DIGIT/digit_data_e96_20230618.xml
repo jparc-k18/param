@@ -91,7 +91,7 @@
     </segment></for>
   </device>
   <!--________________________________________________________________-->
-  <device id="7" name="TOF" type="Hodo"><for var="seg" from="0" to="31">
+  <device id="7" name="TOF" type="Hodo"><for var="seg" from="0" to="37">
     <segment id="seg"><for var="UorD" from="0" to="1">
       <ch id="UorD">
         <data id="0" name="adc"/>
