@@ -507,7 +507,13 @@
       <for var="ch" from="0" to="7"><for var="data" from="0" to="3">
 	<FE ch="ch+8" data="data"><D Device="BH2" segment="ch" ch="1" data="data + 1"/>
       </FE></for></for>
-      <for var="ch" from="16" to="63"><for var="data" from="0" to="3">
+      <for var="ch" from="16" to="17"><for var="data" from="0" to="3">
+	<FE ch="ch" data="data"><D Device="ParaDAQ_TOF_Comp" segment="ch - 16" ch="0" data="data + 1"/>
+      </FE></for></for>
+      <for var="ch" from="18" to="19"><for var="data" from="0" to="3">
+	<FE ch="ch" data="data"><D Device="ParaDAQ_TOF_Comp" segment="ch - 18" ch="1" data="data + 1"/>
+      </FE></for></for>
+      <for var="ch" from="20" to="63"><for var="data" from="0" to="3">
 	<FE ch="ch" data="data"><D Device="null"/>
       </FE></for></for>
     </HulHRTdc>
@@ -523,7 +529,17 @@
       <FE ch="36" data="data"><D Device="TOF" segment="18" ch="0" data="data + 1"/></FE>
       <FE ch="37" data="data"><D Device="TOF" segment="18" ch="1" data="data + 1"/></FE>
       </for>
-      <for var="ch" from="38" to="63"><for var="data" from="0" to="3">
+      <for var="ch" from="38" to="39"><for var="data" from="0" to="3">
+	<FE ch="ch" data="data"><D Device="ParaDAQ_TOF_QTC" segment="ch - 38" ch="0" data="data+1"/>
+      </FE></for></for>
+      <for var="ch" from="40" to="41"><for var="data" from="0" to="3">
+	<FE ch="ch" data="data"><D Device="ParaDAQ_TOF_QTC" segment="ch - 40" ch="1" data="data+1"/>
+      </FE></for></for>
+      <for var="data" from="0" to="3">
+      <FE ch="42" data="data"><D Device="ParaBGO_TMC_Comp" segment="0" data="data + 1"/></FE>
+      <FE ch="43" data="data"><D Device="ParaBGO_TMC_QTC" segment="0" data="data + 1"/></FE>
+      </for>
+      <for var="ch" from="44" to="63"><for var="data" from="0" to="3">
 	<FE ch="ch" data="data"><D Device="null"/>
       </FE></for></for>
     </HulHRTdc>
