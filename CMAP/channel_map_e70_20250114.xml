@@ -213,11 +213,11 @@
 	<FE ch="14"><D Device="E72KVC" segment="3" ch="2" data="0"/></FE>
 	<FE ch="15"><D Device="E42BH2" segment="4" ch="0" data="0"/></FE>
 	<FE ch="16"><D Device="E42BH2" segment="4" ch="1" data="0"/></FE>
-	<FE ch="17"><D Device="null"/></FE>
-	<!-- <FE ch="17"><D Device="SAC3" segment="0" ch="0" data="0"/></FE> -->
-	<FE ch="18"><D Device="null"/></FE>
-	<!-- <FE ch="18"><D Device="TF_TF" segment="0" ch="0" data="0"/></FE> -->
-	<for var="ch" from="19" to="31">
+	<for var="ch" from="17" to="20">
+	  <FE ch="ch"><D Device="null"/></FE>
+	</for>
+	<FE ch="21"><D Device="ParaBGO_TMC_Comp" segment="0" ch="0" data="0"/></FE>
+	<for var="ch" from="22" to="31">
 	  <FE ch="ch"><D Device="null"/></FE>
 	</for>
       </VmeCaenV792>
