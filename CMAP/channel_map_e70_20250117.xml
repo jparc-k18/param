@@ -522,7 +522,7 @@
 	<FE ch="42" data="data"><D Device="ParaBGO_TMC_QTC" segment="0" data="data + 1"/></FE>
       </for>
       <FE ch="43" data="data"><D Device="null"/></FE>
-      <FE ch="43" data="data"><D Device="ParaTMC" segment="0" data="data + 1"/></FE>
+      <FE ch="44" data="data"><D Device="ParaTMC" segment="0" data="data + 1"/></FE>
       <for var="ch" from="45" to="47"><for var="data" from="0" to="3">
 	<FE ch="ch" data="data"><D Device="null"/>
       </FE></for></for>
