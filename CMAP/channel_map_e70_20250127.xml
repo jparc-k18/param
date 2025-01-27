@@ -436,7 +436,7 @@
 	<for var="ch" from="24" to="31">
     	  <FE ch="ch" data="data"><D Device="null"/></FE>
 	</for>
-	<for var="ch" from="32" to="46">
+	<for var="ch" from="32" to="47">
           <FE ch="ch" data="data"><D Device="TFlag" segment="ch - 27" data="data + 1"/></FE>
 	</for>
 	<for var="ch" from="48" to="58">
