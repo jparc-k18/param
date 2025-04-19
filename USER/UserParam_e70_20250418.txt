@@ -165,4 +165,4 @@ AdcParaVC 950
 TimeBttofCut 2.2
 
 ### Sieve slit
-TdcSieve 100000 300000
+TdcSieve 200000 340000
