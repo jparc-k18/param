@@ -178,10 +178,12 @@ BCut 200 1600
 ### CRM cut
 
 CCut 3500 5000
+CRM_TDC 3500 5000
 
 ### TFA cut
 
 TCut 3500 5000
+TFA_TDC 3500 5000
 
 ### RESET cut
 
