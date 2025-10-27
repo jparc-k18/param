@@ -1249,10 +1249,10 @@
       </for>
     </HulScaler>
     <HulResetTime node_id="2002" name="hul_hbx_rtr">
-      <for var="ch" from="0" to="15">
+      <for var="ch" from="0" to="22">
 	<FE ch="ch" data="0"><D Device="Ge" segment="ch" ch="0" data="7"/></FE>
       </for>
-      <for var="ch" from="16" to="31">
+      <for var="ch" from="23" to="31">
 	<FE ch="ch" data="0"><D Device="null" plane="0" ch="0" data="0"/></FE>
       </for>
     </HulResetTime>
