@@ -46,9 +46,10 @@
 	<for var="ch" from="6" to="8">
 	  <FE ch="ch*2"><D Device="null"/></FE>
 	</for>
-	<for var="ch" from="2" to="7">
+	<for var="ch" from="2" to="6">
     	  <FE ch="(ch+8)*2"><D Device="null"/></FE>
     	</for>
+	<FE ch="30"><D Device="E90SAC" segment="0" ch="0" data="0"/></FE>
       </VmeCaenV792>
       <VmeCaenV792 address="0xad060000">
 	<for var="ch" from="0" to="4">
@@ -446,13 +447,18 @@
 	<for var="ch" from="0" to="1">
           <FE ch="ch" data="data"><D Device="BAC" segment="ch" data="data + 1"/></FE>
 	</for>
-	<for var="ch" from="2" to="9">
+	<for var="ch" from="2" to="4">
+          <FE ch="ch" data="data"><D Device="null"/></FE>
+	</for>
+	<FE ch="5" data="data"><D Device="E90SAC" segment="0" data="data + 1"/></FE>
+	<for var="ch" from="6" to="9">
           <FE ch="ch" data="data"><D Device="null"/></FE>
 	</for>
         <FE ch="10" data="data"><D Device="TFlag" segment="31" data="data + 1"/></FE>
 	<for var="ch" from="11" to="15">
           <FE ch="ch" data="data"><D Device="TFlag" segment="ch - 11" data="data + 1"/></FE>
 	</for>
+
 	<for var="ch" from="16" to="23">
           <FE ch="ch" data="data"><D Device="BH2MTLR" segment="ch - 16" data="data + 1"/></FE>
 	</for>
@@ -582,8 +588,8 @@
     <HulHRTdc node_id="1545" name="hul01hr-4">
       <for var="data" from="0" to="3">
 	<FE ch="0" data="data"><D Device="E72BAC" segment="0" ch="0" data="data + 1"/></FE>
-	<FE ch="1" data="data"><D Device="E90SAC" segment="0" ch="0" data="data + 1"/></FE>
-	<FE ch="2" data="data"><D Device="E90SAC" segment="1" ch="0" data="data + 1"/></FE>
+	<!-- <FE ch="1" data="data"><D Device="E90SAC" segment="0" ch="0" data="data + 1"/></FE> -->
+	<!-- <FE ch="2" data="data"><D Device="E90SAC" segment="1" ch="0" data="data + 1"/></FE> -->
 	<FE ch="3" data="data"><D Device="E72KVC" segment="0" ch="0" data="data + 1"/></FE>
 	<FE ch="4" data="data"><D Device="E72KVC" segment="0" ch="1" data="data + 1"/></FE>
 	<FE ch="5" data="data"><D Device="E72KVC" segment="0" ch="2" data="data + 1"/></FE>
@@ -1238,12 +1244,12 @@
     <!--HBXX_____________________________ -->
     <HulScaler node_id="2000" name="hul_hbx_scr1">
       <for var="ch" from="0" to="63">
-	<FE ch="ch" data="0"><D Device="Scaler" plane="5" ch="ch" data="0"/></FE>
+	<FE ch="ch" data="0"><D Device="Scaler" plane="4" ch="ch" data="0"/></FE>
       </for>
     </HulScaler>
     <HulScaler node_id="2001" name="hul_hbx_scr2">
       <for var="ch" from="0" to="63">
-	<FE ch="ch" data="0"><D Device="Scaler" plane="6" ch="ch" data="0"/></FE>
+	<FE ch="ch" data="0"><D Device="Scaler" plane="5" ch="ch" data="0"/></FE>
       </for>
       <for var="data" from="0" to="3">
 	<FE ch="0" data="data + 1"><D Device="HUL-RM" plane="1" ch="0" data="data"/></FE>
