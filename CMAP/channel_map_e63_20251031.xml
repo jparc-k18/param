@@ -1252,7 +1252,7 @@
 	<FE ch="ch" data="0"><D Device="Scaler" plane="8" ch="ch" data="0"/></FE>
       </for>
       <for var="data" from="0" to="3">
-	<FE ch="0" data="data + 1"><D Device="HUL-RM" plane="1" ch="0" data="data"/></FE>
+	<FE ch="0" data="data + 1"><D Device="HUL-RM" plane="hul_hbx_scr2" ch="0" data="data"/></FE>
       </for>
     </HulScaler>
     <HulResetTime node_id="2002" name="hul_hbx_rtr">
