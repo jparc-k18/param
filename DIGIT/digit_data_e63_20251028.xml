@@ -793,7 +793,7 @@
         <data id="4" name="overflow"/>
     </segment></for>
   </device>
-  <device id="52" name="E90SAC" type="Hodo">
+  <device id="52" name="SAC" type="Hodo">
     <segment id="0">
       <data id="0" name="adc"/>
       <data id="1" name="tdc"/>

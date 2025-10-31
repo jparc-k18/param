@@ -1244,12 +1244,12 @@
     <!--HBXX_____________________________ -->
     <HulScaler node_id="2000" name="hul_hbx_scr1">
       <for var="ch" from="0" to="63">
-	<FE ch="ch" data="0"><D Device="Scaler" plane="4" ch="ch" data="0"/></FE>
+	<FE ch="ch" data="0"><D Device="Scaler" plane="7" ch="ch" data="0"/></FE>
       </for>
     </HulScaler>
     <HulScaler node_id="2001" name="hul_hbx_scr2">
       <for var="ch" from="0" to="63">
-	<FE ch="ch" data="0"><D Device="Scaler" plane="5" ch="ch" data="0"/></FE>
+	<FE ch="ch" data="0"><D Device="Scaler" plane="8" ch="ch" data="0"/></FE>
       </for>
       <for var="data" from="0" to="3">
 	<FE ch="0" data="data + 1"><D Device="HUL-RM" plane="1" ch="0" data="data"/></FE>
