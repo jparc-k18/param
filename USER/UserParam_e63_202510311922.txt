@@ -170,6 +170,10 @@ TimeBttofCut 2.2
 ### Sieve slit
 TdcSieve 200000 340000
 
+### parasite LC test
+TdcParaLC	0 5000
+TdcParaLCRef	0 5000
+
 #
 #HBXX parameter
 #
