@@ -202,10 +202,11 @@
 	<FE ch="24"><D Device="WC" segment="11" ch="2" data="0"/></FE>
 	<for var = "ch" from="25" to="27">
 	  <FE ch="ch"><D Device="ParaLC" segment="ch - 25" ch="0" data="0"/></FE>
+	</for>
 	<for var = "ch" from="28" to="30">
 	  <FE ch="ch"><D Device="ParaLC" segment="ch - 28" ch="1" data="0"/></FE>
 	<FE ch="31"><D Device="AC1" segment="19" ch="0" data="0"/></FE>
-
+	</for>
       </VmeCaenV792>
       <VmeCaenV792 address="0x00130000">
 	<for var="ch" from="0" to="16">
@@ -410,8 +411,10 @@
 	<FE ch="87" data="data"><D Device="SFV" segment="5" ch="0" data="data+1"/></FE> -->
 	<for var="ch" from="80" to="82">
 	  <FE ch="ch" data="data"><D Device="ParaLC" segment="ch - 80" ch="0" data="data+1"/></FE>
+	</for>
 	<for var="ch" from="83" to="85">
 	  <FE ch="ch" data="data"><D Device="ParaLC" segment="ch - 83" ch="1" data="data+1"/></FE>
+	</for>
 	<FE ch="86" data="data"><D Device="ParaLCAC" segment="0" ch="2" data="data+1"/></FE>
 	<FE ch="87" data="data"><D Device="ParaLCRef" segment="0" ch="0" data="data+1"/></FE>
 	<FE ch="88" data="data"><D Device="SFV" segment="6" ch="0" data="data+1"/></FE>
