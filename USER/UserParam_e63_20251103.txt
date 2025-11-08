@@ -18,7 +18,8 @@ MtBH2 -2 2
 
 ### BTOF gate
 BTOF -2 2
-BtofK -6 -4 #for ktune 0.9GeV
+BtofK -6 -3.8 #for ktune 0.9GeV
+#BtofK -4 -1.6 #for ktune 1.4GeV
 
 ### BAC
 TdcBAC 600 800
@@ -144,7 +145,7 @@ TdcSAC3		160 260
 TdcSFV		0 2000000
 
 ### Ame SAC gate range
-TdcSAC		160 260
+TdcSAC		700 850
 
 ### TF TDC gate range
 TdcTF_TF		0 2000000
