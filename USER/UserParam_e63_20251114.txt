@@ -141,14 +141,15 @@ TdcT1		0 2000000
 TdcT2		0 2000000
 
 ### SAC3 & SFV TDC gate range
-TdcSAC3		160 260
+TdcSAC3		240 280
 TdcSFV		0 2000000
 
 ### Ame SAC gate range
 TdcSAC		700 850
 
 ### TF TDC gate range
-TdcTF_TF		0 2000000
+#TdcTF_TF		0 2000000
+TdcTF_TF		240 280
 TdcTF_GN1		0 2000000
 TdcTF_GN2		0 2000000
 
