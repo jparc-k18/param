@@ -1,6 +1,6 @@
 ##
-#  file: DCGeomParam_E70_20250430
-#  date: 2025.04.30
+#  file: DCGeomParam_E63_20251101
+#  date: 2025.11.01
 #  note:
 #    The origin of S-2S coordinate is the intersection of lines
 #    to the up/downstream surfaces of the D1 pole.
@@ -18,6 +18,9 @@
 #    AFT       -> from VO
 #    Others    -> S-2S coordinate
 #
+#    ------------ E63 -----------
+#    2025.11.01 add E63 RC (rm E70 AFT)
+#    ------------ E70 -----------
 #    2025.04.30 change VP4 to Sieve slit2 position
 #    2025.03.07 align AFT local center to Target center
 #    2023.08.10 add VP at downstream surface of D1 EG
