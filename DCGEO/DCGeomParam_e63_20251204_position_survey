@@ -1,6 +1,6 @@
 ##
-#  file: DCGeomParam_E63_20251101
-#  date: 2025.11.01
+#  file: DCGeomParam_E63_20251204_position_survey
+#  date: 2025.12.04
 #  note:
 #    The origin of S-2S coordinate is the intersection of lines
 #    to the up/downstream surfaces of the D1 pole.
@@ -19,6 +19,7 @@
 #    Others    -> S-2S coordinate
 #
 #    ------------ E63 -----------
+#    2025.12.04 change SDC1
 #    2025.11.01 add E63 RC (rm E70 AFT)
 #    ------------ E70 -----------
 #    2025.04.30 change VP4 to Sieve slit2 position
